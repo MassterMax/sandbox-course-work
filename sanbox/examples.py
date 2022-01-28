@@ -14,7 +14,6 @@ class Solution:
 
 
 class AnotherSolution:
-
     def __init__(self, nums: List[int]):
         self.orig = nums
         self.copy = self.orig.copy()
