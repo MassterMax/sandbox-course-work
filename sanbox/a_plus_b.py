@@ -1,6 +1,10 @@
 from typing import List
 
 
+def a_plus_b(a, b):
+    return a + b
+
+
 def list_sum_plus_bias(arr: List[int], b):
     """
     Simple method to return sum of array elements + bias
