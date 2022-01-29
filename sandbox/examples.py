@@ -21,12 +21,23 @@ class AnotherSolution:
     def reset(self) -> List[int]:
         """
         Resets the array to its original configuration and return it.
+        Lol
+        kek
+
+         l
+
+
+          l l
+        1
         """
         return self.orig
 
     def shuffle(self) -> List[int]:
         """
         Returns a random shuffling of the array.
+
+        Yes!
+        As it is.
         """
         np.random.shuffle(self.copy)
         return self.copy
