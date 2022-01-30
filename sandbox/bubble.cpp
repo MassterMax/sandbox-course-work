@@ -21,7 +21,6 @@ void bubbleSort(int arr[], int n)
 			swap(&arr[j], &arr[j+1]);
 }
 
-/* Function to print an array */
 void printArray(int arr[], int size)
 {
 	int i;
@@ -30,7 +29,9 @@ void printArray(int arr[], int size)
 	cout << endl;
 }
 
-// Driver code
+/**
+*   Main function.
+*/
 int main()
 {
 	int arr[] = {64, 34, 25, 12, 22, 11, 90};
@@ -40,5 +41,3 @@ int main()
 	printArray(arr, n);
 	return 0;
 }
-
-// This code is contributed by rathbhupendra
